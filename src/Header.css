@@ -1,0 +1,102 @@
+*{
+list-style: none;
+
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px rgb(168, 167, 167);
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logo_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search_facebook input{
+    width: 200px;
+    padding: 12px;
+    margin: 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: aliceblue;
+}
+
+.search_facebook{
+    display: flex;
+    position: relative;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    left: 193px;
+    top: 37px;
+}
+.logo .fa-facebook{
+    color: rgb(28, 85, 190);
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left:10px ;
+}
+.img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.notificaion_icons div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(218, 183, 183);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons_options ul{
+    margin-left: 50px;
+}
+.nav-links{
+    color: #000;
+    font-size: 15px;
+}
+.icons_options ul li{
+    display:inline-block;
+    text-align: center;
+    margin:10px 40px;
+}
+.notificaion_icons{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 20px;
+}
+.notificaion_icons div{
+    margin-left:10px;
+}
+.profile_icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.profile_icon h3{
+    margin-left: 10px;
+}
+.profile_notification{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
