@@ -70,13 +70,27 @@ list-style: none;
 }
 .nav-links{
     color: #000;
-    font-size: 15px;
+    font-size: 14px;
+    position: absolute;
+    top: 15px;
+    right: 35px;
 }
 .icons_options ul li{
     display:inline-block;
     text-align: center;
-    margin:10px 40px;
+    position: relative;
+    background-color:#fff;
+    width: 100px;
+    height: 60px;
 }
+.icons_options ul li:hover{
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+}
+.active{
+    color: rgb(27, 116, 228);
+}
+
 .notificaion_icons{
     display:flex;
     text-align: center;
@@ -89,8 +103,7 @@ list-style: none;
 .profile_icon{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-  
+    align-items: center; 
 }
 .profile_icon h3{
     margin-left: 10px;

@@ -1,0 +1,40 @@
+.left_sidebar{
+    width: 30%;
+    /* background-color: red; */
+    box-shadow: 2px 2px 2px rgb(168, 167, 167);
+}
+.profile_name{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.profile_name:hover{
+    background-color: rgb(242, 242, 242);
+}
+.img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.name{
+    margin: 10px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    padding: -4px;
+}
+.side_icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px 10px 10px 22px ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

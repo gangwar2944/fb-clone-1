@@ -13,7 +13,7 @@ const Header=()=>{
             </div>
             <div className='icons_options'>
                <ul>
-                   <li><a href='#' className='nav-links'><i className="fa-solid fa-house fa-2x"></i></a></li>
+                   <li><a href='#' className='nav-links active'><i className="fa-solid fa-house fa-2x"></i></a></li>
                    <li><a href='#' className='nav-links'><i className="fa-solid fa-film fa-2x"></i></a></li>
                    <li><a href='#' className='nav-links'><i className="fa-solid fa-cart-arrow-down fa-2x "></i></a></li>
                    <li><a href='#' className='nav-links'><i className="fa-solid fa-user-group fa-2x"></i></a></li>
