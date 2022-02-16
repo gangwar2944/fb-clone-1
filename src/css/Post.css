@@ -1,0 +1,51 @@
+.post_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.box{
+    box-shadow: 3px 10px 5px rgba(57, 57, 66, 0.8);
+    border-radius: 10px;
+}
+img{
+    width: 300px;
+    height: 400px;
+}
+.footer_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    /* border-bottom: 1px solid #000; */
+}
+.btn{
+    padding:5px 20px;
+    border: none;
+    background-color: transparent;
+}
+.btn i{
+    margin-left: 5px;
+}
+.btn:hover{
+    background-color: rgb(242, 242, 242);
+
+}
+.comment_show{
+    width: 250px;
+    margin-left: 10px;
+    /* display: none; */
+}
+.input{
+    width: 220px;
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+button[type="submit"]{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(31, 98, 223);
+    color: #fff;
+    /* letter-spacing: 1px; */ 
+}
