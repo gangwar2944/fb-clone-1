@@ -1,15 +1,18 @@
 
 import './App.css';
-import Header from './Header.jsx';
-import LeftSideBar from './LeftSideBar';
-import MidSection from './MidSection';
+
+import Header from './jsx/Header.jsx';
+import LeftSideBar from './jsx/LeftSideBar';
+import MidSection from './jsx/MidSection';
 
 function App() {
   return (
    <>
-  <Header/>
-  <LeftSideBar/>
-  <MidSection/>
+   <Header/>
+       <div className='container'>
+         <LeftSideBar/>
+         <MidSection/>
+      </div>
    </>
   );
 }

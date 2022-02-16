@@ -1,6 +1,6 @@
 import React from 'react';
 // import './Header.css';
-import './LeftSideBar.css';
+import '../css/LeftSideBar.css';
 import SideOptions from './SideOptions.jsx';
 
 const LeftSideBar=()=>{

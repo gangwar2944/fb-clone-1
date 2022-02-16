@@ -1,5 +1,5 @@
 import React from 'react';
-import './LeftSideBar.css';
+import '../css/LeftSideBar.css';
 
 const SideOptions=(props)=>{
     return (
