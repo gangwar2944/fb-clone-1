@@ -26,6 +26,7 @@
     border-radius: 20px;
     font-size: 14px;
     border: none;
+    background-color: rgb(228, 230, 233);
 }
 .postwrite_container{
     width: 80%;
