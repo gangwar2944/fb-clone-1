@@ -1,5 +1,9 @@
 
 import React from 'react';
+import { CgMenuGridR } from "react-icons/cg";
+import {BsMessenger} from "react-icons/bs";
+import {IoNotificationsSharp} from "react-icons/io5";
+import {IoMdArrowDropdown} from "react-icons/io";
 import '../css/Header.css';
 const Header=()=>{
     return (
@@ -27,10 +31,10 @@ const Header=()=>{
                     <h3>vishal</h3>
                 </div>
                 <div className='notificaion_icons'>
-                   <div><a href='#' className='notification_side'><i className="fa-solid fa-house"></i></a></div>
-                   <div><a href='#' className='notification_side'><i className="fa-solid fa-cart-arrow-down  "></i></a></div>
-                   <div><a href='#' className='notification_side'><i className="fa-solid fa-user-group "></i></a></div>
-                   <div><a href='#' className='notification_side'><i className="fa-solid fa-chess-board "></i></a></div>
+                   <div><a href='#' className='notification_side'><CgMenuGridR/></a></div>
+                   <div><a href='#' className='notification_side'><BsMessenger/></a></div>
+                   <div><a href='#' className='notification_side'><IoNotificationsSharp/></a></div>
+                   <div><a href='#' className='notification_side'><IoMdArrowDropdown/></a></div>
                </div>
             </div>
           </div>

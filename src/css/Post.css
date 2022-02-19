@@ -10,7 +10,6 @@
     margin-top: 10px;
     border-radius: 10px;
     /* border-bottom: 2px solid black; */
-   
 }
 .upload_img{
     /* box-shadow: 3px 10px 5px rgba(57, 57, 66, 0.8); */
@@ -18,19 +17,24 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    min-height: 400px;
-    max-height: 500px;
+    /* min-height: 400px; */
+    /* max-height: 500px; */
     width: 100%;
+    /* overflow: hidden; */
+    object-fit: cover;
+    overflow-y: hidden;
 }
 .upload_img img{
-    min-width: 70%;
+    /* min-width: 70%;
     max-width: 80%;
     min-height: 80%;
-    max-height: 80%;
+    max-height: 80%; */
+    width: 100%;
+    
 }
 img{
-    width: 300px;
-    height: 400px;
+    /* width: 300px;
+    height: 400px; */
 }
 .footer_section{
     width: 100%;
@@ -39,7 +43,7 @@ img{
     align-items: center;
     padding: 5px 0;
     /* border-bottom: 1px solid #000; */
-    border-bottom:2px solid rgb(200,200,200);
+    /* border-bottom:2px solid rgb(200,200,200); */
 }
 .btn{
     padding:5px 20px;
@@ -69,7 +73,7 @@ button[type="submit"]{
     border-radius: 10px;
     background-color: rgb(31, 98, 223);
     color: #fff;
-    /* letter-spacing: 1px; */ 
+   
 }
 .profile_photo{
     width: 50px;
@@ -90,8 +94,7 @@ button[type="submit"]{
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    /* background-color: aqua; */
-    box-shadow: 2px 2px rgb(200,200,200);
+    border-bottom: 2px solid rgb(200,200,200);
 }
 .photoNameDot{
     width: 80%;

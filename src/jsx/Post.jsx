@@ -40,7 +40,7 @@ function Post(){
                   <FaEllipsisH style={{margin:"10px"}}/>
           </div>
             <div className='upload_img'>
-               <img src="https://images.unsplash.com/photo-1644424232401-a93a1405d902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="post"/>
+               <img src="https://scontent.fdel27-5.fna.fbcdn.net/v/t39.30808-6/273710512_948512786097371_8599342456237359523_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=q4h8peMMUqcAX__Cfgk&_nc_ht=scontent.fdel27-5.fna&oh=00_AT_GPqdYOX1K4nUo6mvg-Az0we1qJ_Z5-Sl2u_QN1nN65w&oe=6214ECD3" alt="post"/>
             </div>
             <div className='like_icon'>
               <div className='icon_count'>
