@@ -2,6 +2,8 @@
     width: 25%;
     /* background-color: red; */
     box-shadow: 2px 2px 2px rgb(168, 167, 167);
+    background-color: rgb(240,242,245);
+    text-transform: capitalize;
 }
 .profile_name{
     margin-top: 30px;
@@ -9,11 +11,10 @@
     text-align: center;
     align-items: center;
     width: 100%;
-    background-color: #fff;
     border-radius: 10px;
 }
 .profile_name:hover{
-    background-color: rgb(242, 242, 242);
+    background-color:  rgb(225, 226, 226);
 }
 .img{
     width: 30px;
@@ -27,6 +28,9 @@
     display: flex;
     align-items: center;
     padding: -4px;
+}
+.options:hover{
+    background-color:  rgb(225, 226, 226)
 }
 .side_icons{
     width: 30px;

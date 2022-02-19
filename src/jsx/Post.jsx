@@ -1,6 +1,8 @@
 import '../css/Post.css'
 import {FaEllipsisH} from 'react-icons/fa';
 import {FaGlobeEurope} from 'react-icons/fa';
+import {AiFillLike,AiFillHeart} from 'react-icons/ai';
+
 
 function Post(){
     // var btn=document.querySelector("#submit");
@@ -35,15 +37,15 @@ function Post(){
                       <div className='timeIcon'><time>18 h</time><span className='earth_icon'><FaGlobeEurope/></span></div>
                     </div>
                   </div>
-                  <FaEllipsisH style={{marginRight:"10px"}}/>
+                  <FaEllipsisH/>
           </div>
             <div className='upload_img'>
                <img src="https://images.unsplash.com/photo-1644424232401-a93a1405d902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="post"/>
             </div>
             <div className='like_icon'>
               <div className='icon_count'>
-                <span className='fa-thumbs-up'><i class="fas fa-thumbs-up"/></span>
-                <span className='fa-heart'><i class="fas fa-heart"/></span>
+              <AiFillLike style={{backgroundColor:"blue",borderRadius:"50%",color:"#fff",width:"18px",height:"18px"}}/>
+              <AiFillHeart style={{backgroundColor:"red",borderRadius:"50%",color:"#fff",width:"18px",height:"18px"}}/>
               </div>
               <p className='com_count'>13 comment</p>
             </div>

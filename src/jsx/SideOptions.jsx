@@ -1,12 +1,12 @@
 import React from 'react';
 import '../css/LeftSideBar.css';
 
-const SideOptions=(props)=>{
+const SideOptions=({Icon,name})=>{
     return (
         <>
            <div className='options'>
-                    <a href='#' className='side_icons'><i className="fa-solid fa-user-group"></i></a>
-                    <h3>{props.name}</h3>
+                    <a href='#' className='side_icons'>{Icon && <Icon/>}</a>
+                    <h3>{name}</h3>
                 </div>
         </>
     );
