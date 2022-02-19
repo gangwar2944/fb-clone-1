@@ -34,10 +34,10 @@ function Post(){
                    <img src='https://scontent.flko7-2.fna.fbcdn.net/v/t1.6435-9/123053264_1161093030972575_6145899510806164076_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ksKqVh03g9gAX_BakoH&tn=4fMOK3C0sJFeR6Y5&_nc_ht=scontent.flko7-2.fna&oh=00_AT_hRpPn6jCqGlTaN9d0Xgkz8VdRAeGdnek0mDEkEmydVg&oe=6230181E' alt='profile_pic'/></div>
                    <div className='post_profile_name'>
                       <h3 className='name'>vishal gangwar</h3>
-                      <div className='timeIcon'><time>18 h</time><span className='earth_icon'><FaGlobeEurope/></span></div>
+                      <div className='timeIcon'><time>18 h</time><span className='earth_icon'><FaGlobeEurope /></span></div>
                     </div>
                   </div>
-                  <FaEllipsisH/>
+                  <FaEllipsisH style={{margin:"10px"}}/>
           </div>
             <div className='upload_img'>
                <img src="https://images.unsplash.com/photo-1644424232401-a93a1405d902?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="post"/>
